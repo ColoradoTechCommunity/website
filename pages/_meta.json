@@ -1,9 +1,6 @@
 {
   "index": "Introduction",
-  "about": {
-    "title": "About",
-    "type": "page"
-  },
+  "code-of-conduct": "Code of Conduct",
   "Sign Up": {
     "title": "Sign Up ↗",
     "type": "page",

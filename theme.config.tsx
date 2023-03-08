@@ -2,14 +2,15 @@ import React from "react";
 import { DocsThemeConfig } from "nextra-theme-docs";
 
 const config: DocsThemeConfig = {
-  logo: <span>My Project</span>,
+  logo: <span>Colorado Tech Community</span>,
   project: {
     link: "https://github.com/jjhiggz/colorado-tech-community",
   },
   chat: {
     link: "https://discord.com",
   },
-  docsRepositoryBase: "https://github.com/shuding/nextra-docs-template",
+  docsRepositoryBase:
+    "https://github.com/jjhiggz/colorado-tech-community/tree/main",
   footer: {
     text: "Colorado Tech Community",
   },
