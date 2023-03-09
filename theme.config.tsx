@@ -7,7 +7,7 @@ const config: DocsThemeConfig = {
     link: "https://github.com/jjhiggz/colorado-tech-community",
   },
   chat: {
-    link: "https://discord.com",
+    link: "https://discord.gg/fWYREqkA",
   },
   docsRepositoryBase:
     "https://github.com/jjhiggz/colorado-tech-community/tree/main",
