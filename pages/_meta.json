@@ -1,11 +1,10 @@
 {
   "index": "Welcome",
   "code-of-conduct": "Code of Conduct",
-  "Sign Up": {
+  "Sign up": {
     "title": "Sign up ↗",
     "type": "page",
     "href": "https://discord.gg/fWYREqkA",
     "newWindow": true
-  },
-  "community-missions": "Community Missions"
+  }
 }
