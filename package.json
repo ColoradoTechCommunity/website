@@ -1,22 +1,26 @@
 {
-  "name": "nextra-docs-template",
-  "version": "0.0.1",
-  "description": "Nextra docs template",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+  "name": "colorado-tech-community-website",
+  "version": "0.1.0",
+  "description": "Colorado Tech Community website",
+  "homepage": "https://github.com/ColoradoTechCommunity/website#readme",
+  "bugs": {
+    "url": "https://github.com/ColoradoTechCommunity/website/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shuding/nextra-docs-template.git"
+    "url": "git+https://github.com/ColoradoTechCommunity/website.git"
   },
-  "author": "Shu Ding <g@shud.in>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/shuding/nextra-docs-template/issues"
+  "contributors": [
+    "Shu Ding <g@shud.in>",
+    "Jon Higger",
+    "Martin Rosenberg (https://martinbrosenberg.com/)"
+  ],
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start"
   },
-  "homepage": "https://github.com/shuding/nextra-docs-template#readme",
   "dependencies": {
     "next": "^13.2.4",
     "nextra": "^2.2.18",
