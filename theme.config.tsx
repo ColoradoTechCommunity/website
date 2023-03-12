@@ -9,8 +9,7 @@ const config: DocsThemeConfig = {
   chat: {
     link: "https://discord.gg/fWYREqkA",
   },
-  docsRepositoryBase:
-    "https://github.com/ColoradoTechCommunity/tree/main",
+  docsRepositoryBase: "https://github.com/ColoradoTechCommunity/tree/main",
   footer: {
     text: "Colorado Tech Community",
   },
