@@ -1,12 +1,13 @@
 {
-	"index": "Welcome",
-	"code-of-conduct": "Code of Conduct",
-	"the-ctc-way": "The CTC Way",
-	"jobs-forum-rules": "Jobs Forum Rules",
-	"sign-up": {
-		"title": "Sign up ↗",
-		"type": "page",
-		"href": "https://discord.gg/fWYREqkA",
-		"newWindow": true
-	}
+  "index": "Welcome",
+  "code-of-conduct": "Code of Conduct",
+  "the-ctc-way": "The CTC Way",
+  "jobs-forum-rules": "Jobs Forum Rules",
+  "how-to-help": "How to Help",
+  "sign-up": {
+    "title": "Sign up ↗",
+    "type": "page",
+    "href": "https://discord.gg/fWYREqkA",
+    "newWindow": true
+  }
 }
