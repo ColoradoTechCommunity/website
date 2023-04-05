@@ -3,14 +3,21 @@ title: "Welcome"
 description: "Welcome"
 ---
 
-{/* Change this to rebuild~ */}
+import Image from "next/image"
 
-import { CenteredImage } from "../components/CenteredImage.tsx"
+import { CenteredContent } from "../components/CenteredContent.tsx"
 import { DiscordButton } from "../components/DiscordButton.tsx"
+import allAreWelcomeHere from "../public/all-are-welcome-here.jpg"
+import glassesAndScreens from "../public/kevin-ku-w7ZyuGYNpRQ-unsplash.jpg"
+
+{/* Change this to rebuild~ */}
 
 # 👋 Welcome
 
-![pic](https://www.herzing.edu/sites/default/files/styles/fp_960_480_jpg/public/2020-09/it_computer_programming.jpg?h=b3660f0d&itok=JxlURDWg)
+<Image
+	src={glassesAndScreens}
+	alt="A photo of code on computer screens, blurred except a small part seen through glasses"
+/>
 
 ## 📜 Background
 
@@ -24,13 +31,12 @@ While this space is intended primarily to serve Colorado, we welcome anybody fro
 
 You do not have to be a software developer to join Colorado Tech Community! This space is also open to anyone tech-adjacent in some capacity: designers, product managers, testers, makers, hobbyists, etc.
 
-<CenteredImage
-  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkr4OnWyAHJSNr1ti1Nqcibnzx5rJjZh5SpQ&usqp=CAU"
-  animation="grow-shrink"
-/>
+<CenteredContent>
+  <Image src={allAreWelcomeHere} alt="All are welcome here" width={250} />
+</CenteredContent>
 
 ## 🎉 Getting started
 
-To join us in Colorado Tech Community:
+To join us in Colorado Tech Community, just ~follow your nose~ click this button:
 
 <DiscordButton />
