@@ -1,14 +1,15 @@
-import { CenteredContent } from "./CenteredContent";
+import Image from "next/image"
+
+import { CenteredContent } from "./CenteredContent"
+import joinUsOnDiscord from "../public/join-us-on-discord.png"
 
 export const DiscordButton = () => (
   <CenteredContent>
-    <img
-      style={{ height: 60, boxShadow: "10px black", cursor: "pointer" }}
-      onClick={() => {
-        window.open("https://discord.gg/fWYREqkA");
-      }}
-      src="https://i0.wp.com/peakofserenity.com/wp-content/uploads/2018/12/wZgPoYaVlU0gAAAABJRU5ErkJggg.png?ssl=1"
-      alt=""
-    />
+    <a
+      href="https://discord.gg/coloradotechcommunity"
+      rel="noopener noreferrer"
+    >
+      <Image src={joinUsOnDiscord} alt="Join us on Discord" width={250} />
+    </a>
   </CenteredContent>
-);
+)
