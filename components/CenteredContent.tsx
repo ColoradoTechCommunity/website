@@ -1,8 +1,10 @@
-export const CenteredContent = ({
-  children,
-}: {
-  children: JSX.Element | JSX.Element[];
-}) => (
+import React from "react"
+
+type CenteredContentProps = {
+  children: React.ReactNode
+}
+
+export const CenteredContent = ({ children }: CenteredContentProps) => (
   <div
     style={{
       width: "100%",
@@ -13,4 +15,4 @@ export const CenteredContent = ({
   >
     {children}
   </div>
-);
+)

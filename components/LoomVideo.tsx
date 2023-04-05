@@ -1,4 +1,8 @@
-export const LoomVideo = ({ src }: { src: string }) => (
+type LoomVideoProps = {
+  src: string
+}
+
+export const LoomVideo = ({ src }: LoomVideoProps) => (
   <div
     style={{
       position: "relative",
@@ -7,7 +11,7 @@ export const LoomVideo = ({ src }: { src: string }) => (
     }}
   >
     <iframe
-      src="https://www.loom.com/embed/6257c72f19824f62ba9dbce74ce3876e"
+      src={src}
       //   frameborder="0"
       //   webkitallowfullscreen
       //   mozallowfullscreen
@@ -21,4 +25,4 @@ export const LoomVideo = ({ src }: { src: string }) => (
       }}
     ></iframe>
   </div>
-);
+)
