@@ -54,7 +54,7 @@ const config: DocsThemeConfig = {
     link: githubUrl,
   },
   chat: {
-    link: "https://discord.gg/coloradotechcommunity",
+    link: "https://discord.gg/8hKz737NwT",
   },
   search: {
     placeholder: "🔎 Search",
