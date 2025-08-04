@@ -2,13 +2,13 @@
   "name": "colorado-tech-community-website",
   "version": "0.1.0",
   "description": "Colorado Tech Community website",
-  "homepage": "https://github.com/ColoradoTechCommunity/website#readme",
+  "homepage": "https://github.com/ColoradoTechCommunity/ctc-website#readme",
   "bugs": {
-    "url": "https://github.com/ColoradoTechCommunity/website/issues"
+    "url": "https://github.com/ColoradoTechCommunity/ctc-website/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ColoradoTechCommunity/website.git"
+    "url": "git+https://github.com/ColoradoTechCommunity/ctc-website.git"
   },
   "license": "MIT",
   "contributors": [
